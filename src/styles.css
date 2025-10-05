@@ -1,6 +1,6 @@
 header {
-  background-image: linear-gradient ((rbga 0, 0, 0, 0.4), rbga(0, 0, 0, 0.4))
-    ("../images/Dream.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4))
+    url("../images/dream.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
