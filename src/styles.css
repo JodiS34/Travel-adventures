@@ -66,10 +66,19 @@ header a {
   }
 }
 footer {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  background-image: linear-gradient(
+      rgba(39, 32, 68, 0.9),
+      rgba(39, 32, 68, 0.6)
+    ),
     url("../images/Dream.png");
   background-repeat: no-repeat;
   color: white;
   text-align: center;
   padding: 50px 0;
+}
+
+footer h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
 }
