@@ -11,11 +11,11 @@ section {
   max-width: 1200px;
   margin: 0 auto;
 }
-.grid-3-columns-with-first-narrow {
-  grid-template-columns: 1fr 2fr 2fr;
-}
+
 .grid {
   display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid: gap 64px;
 }
 
 header {
