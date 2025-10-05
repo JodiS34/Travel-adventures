@@ -65,3 +65,11 @@ header a {
     font-size: 12px;
   }
 }
+footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/Dream.png");
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+}
