@@ -7,10 +7,14 @@ body {
   max-width: 1400px;
   margin: 0 auto;
 }
+.text-center {
+  text-align: center;
+}
 .grid {
   display: grid;
   grid: gap 64px;
 }
+
 .img-responsive {
   max-width: 100%;
 }
@@ -18,14 +22,22 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
 .grid-3-columns-with-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
 }
+.card {
+  background-color: white;
+}
 
 section {
-  max-width: 1200px;
   margin: 0 auto;
   padding: 100px 0;
+}
+section .secondary {
+  background: #f8f8f8;
 }
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
@@ -88,6 +100,18 @@ main h3 {
   line-height: 1.5;
   color: #272044;
   margin: 0;
+}
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #272044;
+}
+main h5 {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #272044;
 }
 main p {
   font-style: normal;
