@@ -32,7 +32,10 @@ body {
 .card {
   background-color: white;
 }
-.card body {
+.card-body {
+  padding: 0 30px 30px;
+}
+.card-footer {
   padding: 30px;
 }
 .btn {
