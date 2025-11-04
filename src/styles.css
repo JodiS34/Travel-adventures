@@ -29,8 +29,15 @@ body {
 .grid-3-columns-with-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
 }
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
 .card {
   background-color: white;
+}
+.card-header.grid {
+  grid: gap 0;
 }
 .card-body {
   padding: 0 30px 30px;
