@@ -43,6 +43,7 @@ blockquote {
 }
 .card {
   background-color: white;
+  display: block;
   margin: 30px 0;
 }
 .card-header.grid {
