@@ -17,7 +17,7 @@ blockquote {
 }
 .grid {
   display: grid;
-  grid: gap 64px;
+  gap: 64px;
 }
 
 .img-responsive {
@@ -45,7 +45,7 @@ blockquote {
   background-color: white;
 }
 .card-header.grid {
-  grid: gap 0;
+  gap: 0;
 }
 .card-body {
   padding: 0 30px 30px;
@@ -210,7 +210,7 @@ footer a {
   }
   .grid {
     grid-template-columns: 1fr;
-    grid-gap: 32px;
+    gap: 32px;
   }
   section {
     padding: 30px;
